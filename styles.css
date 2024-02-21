@@ -1,0 +1,109 @@
+body{
+  background-color: black;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.line{
+  background-color: white;
+  height: 10px;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 50%;
+}
+
+.slogan{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h2 {
+color: white;
+text-align: center;
+font-size: 40px;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+
+p{
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 30px;
+}
+
+.photos{
+  display: flex;
+  justify-content: center;
+}
+
+.photos>img{
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+}
+
+img {
+border-radius: 10px;
+}
+
+img:hover {
+box-shadow: 0 0 30px rgb(255, 0, 0);
+}
+
+.infoform{
+  text-align: center;
+}
+
+.infoform>p {
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.fab {
+font-size: 50px;
+background-color: white;
+color: black;
+padding: 10px;
+border-radius: 8px;
+}
+
+.fab:hover {
+box-shadow: 0 0 30px rgb(255, 0, 0);
+}
+
+@media (max-width: 720px) {
+.photos>img {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+.heading>img {
+  height: 80%;
+  width: 80%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.fab {
+  font-size: 30px;
+}
+}
